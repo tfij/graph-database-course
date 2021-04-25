@@ -16,9 +16,6 @@ This course is driven by IntelliJ IDEA Edu.
 You can read more about this platform at [jetbrains.com](https://www.jetbrains.com/help/idea/product-educational-tools.html) site.
 
 In each task, I provide links to documentation and tips so that you have a starting point when you get stuck.
-However, if you do get stuck anyway, there is an answer for each task in the end of test file in private method `answer`.
-
-Graph diagrams are draw by [arrows.app](https://arrows.app).
 
 ## Technology
 

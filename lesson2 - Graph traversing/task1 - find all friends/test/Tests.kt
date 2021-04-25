@@ -44,14 +44,10 @@ class Test {
         val allEntities = allFriendsOf(g, firstName)
 
         // then function returns valid data set
-        Assert.assertEquals("Find all %s friends".format(firstName), answer(g, firstName), allEntities)
-    }
-
-    private fun answer(g: GraphTraversalSource, firstName: String): List<String> {
-        return g.V()
-            .has("firstName", firstName)
-            .both("friendOf")
-            .values<String>("firstName")
-            .toList()
+        Assert.assertEquals(
+            "Find all %s friends".format(firstName),
+            setOf("Margareth", "Jenefer"),
+            allEntities
+        )
     }
 }

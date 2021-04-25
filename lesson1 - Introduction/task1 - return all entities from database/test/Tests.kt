@@ -25,10 +25,14 @@ class Test {
         val allEntities = findAll(g)
 
         // then function returns valid data set
-        Assert.assertEquals("findAll returns all entities", answer(g), allEntities)
-    }
-
-    private fun answer(g: GraphTraversalSource): List<Map<Any, Any>> {
-        return g.V().valueMap<Any>().toList()
+        Assert.assertEquals(
+            "findAll returns all entities",
+            listOf(
+                mapOf("firstName" to listOf("John")),
+                mapOf("firstName" to listOf("Dave")),
+                mapOf("firstName" to listOf("Mark"))
+            ),
+            allEntities
+        )
     }
 }

@@ -28,10 +28,10 @@ class Test {
         val allEntities = findByFirstName(g, firstName)
 
         // then function returns valid data set
-        Assert.assertEquals("Find %s entity".format(firstName), answer(g, firstName), allEntities)
-    }
-
-    private fun answer(g: GraphTraversalSource, firstName: String): Map<Any, Any> {
-        return g.V().has("firstName", firstName).valueMap<Any>().next()
+        Assert.assertEquals(
+            "Find %s entity".format(firstName),
+            mapOf("firstName" to listOf(firstName)),
+            allEntities
+        )
     }
 }
