@@ -1,5 +1,5 @@
-# Task 1 - return all entities from database
+# Task 1 - return all entities from the database
 
-Write a code that return's all entities from database.
+Write a code that return's all entities from the database.
 
-<div class="hint">You can use valueMap method to get properties from entity.</div>
+<div class="hint">You can use the valueMap method to get properties from an entity.</div>
