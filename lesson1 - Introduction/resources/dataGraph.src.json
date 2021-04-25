@@ -1,0 +1,92 @@
+{
+  "nodes": [
+    {
+      "id": "n0",
+      "position": {
+        "x": -111,
+        "y": -363
+      },
+      "caption": "Person",
+      "labels": [],
+      "properties": {
+        "firstName": "John"
+      },
+      "style": {
+        "property-font-size": 20
+      }
+    },
+    {
+      "id": "n1",
+      "position": {
+        "x": 212,
+        "y": -504.18376618407353
+      },
+      "caption": "Person",
+      "labels": [],
+      "properties": {
+        "firstName": "Dave"
+      },
+      "style": {
+        "property-font-size": 20
+      }
+    },
+    {
+      "id": "n2",
+      "position": {
+        "x": -158,
+        "y": -586.3675323681471
+      },
+      "caption": "Person",
+      "labels": [],
+      "properties": {
+        "firstName": "Mark"
+      },
+      "style": {
+        "property-position": "outside",
+        "property-font-size": 20
+      }
+    }
+  ],
+  "relationships": [],
+  "style": {
+    "node-color": "#ffffff",
+    "border-width": 4,
+    "border-color": "#000000",
+    "radius": 50,
+    "node-padding": 5,
+    "outside-position": "auto",
+    "caption-position": "inside",
+    "caption-max-width": 200,
+    "caption-color": "#000000",
+    "caption-font-size": 50,
+    "caption-font-weight": "normal",
+    "label-position": "inside",
+    "label-color": "#000000",
+    "label-background-color": "#ffffff",
+    "label-border-color": "#000000",
+    "label-border-width": 4,
+    "label-font-size": 40,
+    "label-padding": 5,
+    "label-margin": 4,
+    "directionality": "directed",
+    "detail-position": "inline",
+    "detail-orientation": "parallel",
+    "arrow-width": 5,
+    "arrow-color": "#000000",
+    "margin-start": 5,
+    "margin-end": 5,
+    "margin-peer": 20,
+    "attachment-start": "normal",
+    "attachment-end": "normal",
+    "type-color": "#000000",
+    "type-background-color": "#ffffff",
+    "type-border-color": "#000000",
+    "type-border-width": 0,
+    "type-font-size": 40,
+    "type-padding": 5,
+    "property-position": "outside",
+    "property-color": "#000000",
+    "property-font-size": 40,
+    "property-font-weight": "normal"
+  }
+}

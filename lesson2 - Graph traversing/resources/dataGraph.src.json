@@ -1,0 +1,270 @@
+{
+  "style": {
+    "node-color": "#ffffff",
+    "border-width": 4,
+    "border-color": "#000000",
+    "radius": 50,
+    "node-padding": 5,
+    "outside-position": "auto",
+    "caption-position": "inside",
+    "caption-max-width": 200,
+    "caption-color": "#000000",
+    "caption-font-size": 50,
+    "caption-font-weight": "normal",
+    "label-position": "inside",
+    "label-color": "#000000",
+    "label-background-color": "#ffffff",
+    "label-border-color": "#000000",
+    "label-border-width": 4,
+    "label-font-size": 40,
+    "label-padding": 5,
+    "label-margin": 4,
+    "directionality": "directed",
+    "detail-position": "inline",
+    "detail-orientation": "parallel",
+    "arrow-width": 5,
+    "arrow-color": "#000000",
+    "margin-start": 5,
+    "margin-end": 5,
+    "margin-peer": 20,
+    "attachment-start": "normal",
+    "attachment-end": "normal",
+    "type-color": "#000000",
+    "type-background-color": "#ffffff",
+    "type-border-color": "#000000",
+    "type-border-width": 0,
+    "type-font-size": 40,
+    "type-padding": 5,
+    "property-position": "outside",
+    "property-color": "#000000",
+    "property-font-size": 40,
+    "property-font-weight": "normal"
+  },
+  "nodes": [
+    {
+      "id": "n0",
+      "position": {
+        "x": -245.0194249715134,
+        "y": -400.82070455473496
+      },
+      "caption": "Person",
+      "labels": [],
+      "properties": {
+        "firstName": "John"
+      },
+      "style": {
+        "property-font-size": 20
+      }
+    },
+    {
+      "id": "n1",
+      "position": {
+        "x": 190.32001492777619,
+        "y": -664.9372239659704
+      },
+      "caption": "Person",
+      "labels": [],
+      "properties": {
+        "firstName": "Dave"
+      },
+      "style": {
+        "property-font-size": 20
+      }
+    },
+    {
+      "id": "n2",
+      "position": {
+        "x": -196.26836670745925,
+        "y": -688.2386493950439
+      },
+      "caption": "Person",
+      "labels": [],
+      "properties": {
+        "firstName": "Mark"
+      },
+      "style": {
+        "property-position": "outside",
+        "property-font-size": 20
+      }
+    },
+    {
+      "id": "n3",
+      "position": {
+        "x": 21.58432380439379,
+        "y": -822.8457140470716
+      },
+      "caption": "Person",
+      "labels": [],
+      "properties": {
+        "firstName": "Barbara"
+      },
+      "style": {
+        "property-font-size": 20
+      }
+    },
+    {
+      "id": "n4",
+      "position": {
+        "x": 239.27232587116333,
+        "y": -413.57587476766923
+      },
+      "caption": "Person",
+      "labels": [],
+      "properties": {
+        "firstName": "Margareth"
+      },
+      "style": {
+        "property-font-size": 20
+      }
+    },
+    {
+      "id": "n5",
+      "position": {
+        "x": -13.056216287143457,
+        "y": -509.3192134584975
+      },
+      "caption": "Person",
+      "style": {
+        "property-font-size": 20
+      },
+      "labels": [],
+      "properties": {
+        "firstName": "Jenefer"
+      }
+    },
+    {
+      "id": "n6",
+      "position": {
+        "x": 452.28160913881084,
+        "y": -729.8417942966973
+      },
+      "caption": "Person",
+      "style": {
+        "property-font-size": 20
+      },
+      "labels": [],
+      "properties": {
+        "firstName": "Adel"
+      }
+    },
+    {
+      "id": "n7",
+      "position": {
+        "x": 398.17928522761974,
+        "y": -980.1452005158236
+      },
+      "caption": "Person",
+      "style": {
+        "property-font-size": 20
+      },
+      "labels": [],
+      "properties": {
+        "firstName": "Bil"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "id": "n0",
+      "type": "friendOf",
+      "style": {
+        "type-font-size": 20
+      },
+      "properties": {},
+      "fromId": "n2",
+      "toId": "n3"
+    },
+    {
+      "id": "n1",
+      "type": "friendOf",
+      "style": {
+        "type-font-size": 20
+      },
+      "properties": {},
+      "fromId": "n1",
+      "toId": "n4"
+    },
+    {
+      "id": "n2",
+      "type": "friendOf",
+      "style": {
+        "type-font-size": 20
+      },
+      "properties": {},
+      "fromId": "n0",
+      "toId": "n5"
+    },
+    {
+      "id": "n3",
+      "type": "fan",
+      "style": {
+        "type-font-size": 20
+      },
+      "properties": {},
+      "fromId": "n1",
+      "toId": "n6"
+    },
+    {
+      "id": "n4",
+      "type": "friendOf",
+      "style": {
+        "type-font-size": 20
+      },
+      "properties": {},
+      "fromId": "n5",
+      "toId": "n2"
+    },
+    {
+      "id": "n5",
+      "type": "friendOf",
+      "style": {
+        "type-font-size": 20
+      },
+      "properties": {},
+      "fromId": "n5",
+      "toId": "n1"
+    },
+    {
+      "id": "n6",
+      "type": "friendOf",
+      "style": {
+        "type-font-size": 20
+      },
+      "properties": {},
+      "fromId": "n5",
+      "toId": "n4"
+    },
+    {
+      "id": "n7",
+      "type": "fan",
+      "style": {
+        "type-font-size": 20
+      },
+      "properties": {},
+      "fromId": "n7",
+      "toId": "n6"
+    },
+    {
+      "id": "n8",
+      "type": "fan",
+      "style": {
+        "type-font-size": 20,
+        "type-padding": 2
+      },
+      "properties": {},
+      "fromId": "n4",
+      "toId": "n6"
+    },
+    {
+      "id": "n9",
+      "type": "friendOf",
+      "style": {
+        "type-font-size": 20,
+        "type-padding": 1
+      },
+      "properties": {},
+      "fromId": "n6",
+      "toId": "n4"
+    }
+  ]
+}

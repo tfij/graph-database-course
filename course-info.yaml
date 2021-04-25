@@ -1,0 +1,9 @@
+title: Graph Database Course
+language: English
+summary: |-
+  Graph Database Course with Gremlin.
+  Created: Apr 25, 2021, 12:48:16 AM.
+programming_language: Kotlin
+content:
+- lesson1 - Introduction
+- lesson2 - Graph traversing
