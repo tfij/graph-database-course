@@ -3,8 +3,8 @@
 In the previous task, you write a function that returns friends of friends.
 Now we will refactor that function and reducing code duplication.
 
-Gremlin provides loops by `repete` step.
-`repete` takes nested traverse as an argument, e.g.
+Gremlin provides loops by `repeat` step.
+`repeat` takes nested traverse as an argument, e.g.
 
 ```
 g().V()
@@ -12,6 +12,7 @@ g().V()
         both('friendOf')
     )
     .times(2)
+    .dedup()
     .values('firstName')
 ```
 

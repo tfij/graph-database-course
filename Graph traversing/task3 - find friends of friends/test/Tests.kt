@@ -11,16 +11,21 @@ class Test {
         InitGraphDataUtil.graphTraversingLessonGraph(g)
 
         // and firstName = Dave
-        val firstName = "Dave"
+        val firstName = "Mark"
 
         // when I call task function
-        val allEntities = allFriendsOf(g, firstName)
+        val allEntities = allFriendsOfFriendsOf(g, firstName)
 
         // then function returns valid data set
         Assert.assertEquals(
-            "Find all %s friends".format(firstName),
-            listOf("Margareth", "Jenefer").sorted(),
+            "Find all %s friends with no duplicates".format(firstName),
+            allEntities.distinct().sorted(),
             allEntities.sorted()
+        )
+        Assert.assertEquals(
+            "Find all %s friends of friends".format(firstName),
+            setOf("John", "Dave", "Margareth", firstName),
+            allEntities.toSet()
         )
     }
 }
