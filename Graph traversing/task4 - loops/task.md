@@ -1,4 +1,4 @@
-# Task 3 - find friends of friends with loop
+# Task 4 - find friends of friends with loop
 
 In the previous task, you write a function that returns friends of friends.
 Now we will refactor that function and reducing code duplication.

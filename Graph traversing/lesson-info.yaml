@@ -1,7 +1,8 @@
 content:
-- task0 - Introduction
 - task1 - find all friends
-- task 2 - sort the results
+- task0 - Introduction
+- task2 - sort the results
 - task3 - find friends of friends
 - task4 - loops
-- task4 - recursion
+- task5 - recursion
+- task6 - limiting recursion
