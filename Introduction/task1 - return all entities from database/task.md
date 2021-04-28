@@ -1,4 +1,4 @@
-# Task 1 - return all entities from the database
+# Return all entities from the database
 
 Write a code that return's all entities from the database.
 

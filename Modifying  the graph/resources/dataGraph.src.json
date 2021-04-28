@@ -1,0 +1,148 @@
+{
+  "style": {
+    "node-color": "#ffffff",
+    "border-width": 4,
+    "border-color": "#000000",
+    "radius": 50,
+    "node-padding": 5,
+    "outside-position": "auto",
+    "caption-position": "inside",
+    "caption-max-width": 200,
+    "caption-color": "#000000",
+    "caption-font-size": 50,
+    "caption-font-weight": "normal",
+    "label-position": "inside",
+    "label-color": "#000000",
+    "label-background-color": "#ffffff",
+    "label-border-color": "#000000",
+    "label-border-width": 4,
+    "label-font-size": 40,
+    "label-padding": 5,
+    "label-margin": 4,
+    "directionality": "directed",
+    "detail-position": "inline",
+    "detail-orientation": "parallel",
+    "arrow-width": 5,
+    "arrow-color": "#000000",
+    "margin-start": 5,
+    "margin-end": 5,
+    "margin-peer": 20,
+    "attachment-start": "normal",
+    "attachment-end": "normal",
+    "type-color": "#000000",
+    "type-background-color": "#ffffff",
+    "type-border-color": "#000000",
+    "type-border-width": 0,
+    "type-font-size": 40,
+    "type-padding": 5,
+    "property-position": "outside",
+    "property-color": "#000000",
+    "property-font-size": 40,
+    "property-font-weight": "normal"
+  },
+  "nodes": [
+    {
+      "id": "n1",
+      "position": {
+        "x": 190.32001492777619,
+        "y": -664.9372239659704
+      },
+      "caption": "Person",
+      "labels": [],
+      "properties": {
+        "firstName": "Dave"
+      },
+      "style": {
+        "property-font-size": 20
+      }
+    },
+    {
+      "id": "n4",
+      "position": {
+        "x": 239.27232587116333,
+        "y": -413.57587476766923
+      },
+      "caption": "Person",
+      "labels": [],
+      "properties": {
+        "firstName": "Margareth"
+      },
+      "style": {
+        "property-font-size": 20
+      }
+    },
+    {
+      "id": "n6",
+      "position": {
+        "x": 452.28160913881084,
+        "y": -729.8417942966973
+      },
+      "caption": "Person",
+      "labels": [],
+      "properties": {
+        "firstName": "Adel"
+      },
+      "style": {
+        "property-font-size": 20
+      }
+    },
+    {
+      "id": "n7",
+      "position": {
+        "x": 398.17928522761974,
+        "y": -980.1452005158236
+      },
+      "caption": "Person",
+      "labels": [],
+      "properties": {
+        "firstName": "Bil"
+      },
+      "style": {
+        "property-font-size": 20
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "id": "n1",
+      "fromId": "n1",
+      "toId": "n4",
+      "type": "friendOf",
+      "properties": {},
+      "style": {
+        "type-font-size": 20
+      }
+    },
+    {
+      "id": "n3",
+      "fromId": "n1",
+      "toId": "n6",
+      "type": "fan",
+      "properties": {},
+      "style": {
+        "type-font-size": 20
+      }
+    },
+    {
+      "id": "n7",
+      "fromId": "n7",
+      "toId": "n6",
+      "type": "fan",
+      "properties": {},
+      "style": {
+        "type-font-size": 20
+      }
+    },
+    {
+      "id": "n8",
+      "fromId": "n4",
+      "toId": "n6",
+      "type": "fan",
+      "properties": {},
+      "style": {
+        "type-font-size": 20,
+        "type-padding": 2
+      }
+    }
+  ]
+}

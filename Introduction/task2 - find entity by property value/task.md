@@ -1,4 +1,4 @@
-# Task 2 - find entity by property value
+# Find entity by property value
 
 Write a code that return's a single entity from the database base on a given `firstName` property value.
 

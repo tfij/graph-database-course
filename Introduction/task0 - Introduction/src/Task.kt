@@ -4,4 +4,6 @@ fun count(g: GraphTraversalSource): Long {
     return g.V().count().next()
 }
 
-// Read the introduction and click "Check" and go to your first task.
+fun main() {
+    println("Read the introduction and click \"Next\" and go to your first task.")
+}

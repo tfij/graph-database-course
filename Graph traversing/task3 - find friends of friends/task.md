@@ -1,4 +1,4 @@
-# Task 2 - find friends of friends
+# Find friends of friends
 
 Write a code that return's all friends names (`firstName` property) of friends of the person by given the first name.
 

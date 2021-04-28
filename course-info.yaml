@@ -7,3 +7,4 @@ programming_language: Kotlin
 content:
 - Introduction
 - Graph traversing
+- Modifying  the graph

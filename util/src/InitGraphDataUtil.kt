@@ -36,4 +36,15 @@ object InitGraphDataUtil {
         g.addE("fan").from(bil).to(adel).next()
     }
 
+    fun graphModifyingLessonGraph(g: GraphTraversalSource) {
+        val dave = g.addV("Person").property("firstName", "Dave").next()
+        val adel = g.addV("Person").property("firstName", "Adel").next()
+        val margareth = g.addV("Person").property("firstName", "Margareth").next()
+        val bil = g.addV("Person").property("firstName", "Bil").next()
+        g.addE("fan").from(dave).to(adel).next()
+        g.addE("friendOf").from(dave).to(margareth).next()
+        g.addE("fan").from(margareth).to(adel).next()
+        g.addE("fan").from(bil).to(adel).next()
+    }
+
 }

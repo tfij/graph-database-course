@@ -1,4 +1,4 @@
-# Task 0 - Introduction
+# Introduction to traversing
 
 Graph databases work best when there are many dependencies and relationships between the data.
 Therefore, the edges in the graph databases are the first class citizen.

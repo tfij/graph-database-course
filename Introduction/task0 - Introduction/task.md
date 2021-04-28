@@ -53,4 +53,4 @@ They are all of type `Person` and have the property `firstName`.
 
 ![Data graph](../resources/dataGraph.png)
 
-Click `Check` and go to your first task.
+Click `Next` and go to your first task.

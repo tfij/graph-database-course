@@ -1,4 +1,4 @@
-# Task 2 - Sort the results
+# Sort the results
 
 Modify the function that returns friends so that the result from the database is sorted by `firstName` property.
 

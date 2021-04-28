@@ -1,4 +1,4 @@
-# Task 5 - find the path with recursion
+# Find the path with recursion
 
 In the previous task use the repeat-times loop.
 Gremlin support also while and do-while loops.

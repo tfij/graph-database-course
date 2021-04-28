@@ -1,4 +1,4 @@
-# Task 6 - limiting path in recursion
+# Limiting path in recursion
 
 For a large graph, there can be thousands of paths connecting two vertices.
 Some of them may be short and others very long.
