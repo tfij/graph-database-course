@@ -57,6 +57,21 @@
       }
     },
     {
+      "id": "n4",
+      "position": {
+        "x": 239.27232587116333,
+        "y": -413.57587476766923
+      },
+      "caption": "Person",
+      "labels": [],
+      "properties": {
+        "firstName": "Margareth"
+      },
+      "style": {
+        "property-font-size": 20
+      }
+    },
+    {
       "id": "n6",
       "position": {
         "x": 452.28160913881084,
@@ -89,10 +104,10 @@
   ],
   "relationships": [
     {
-      "id": "n3",
+      "id": "n1",
       "fromId": "n1",
-      "toId": "n6",
-      "type": "fan",
+      "toId": "n4",
+      "type": "friendOf",
       "properties": {},
       "style": {
         "type-font-size": 20
@@ -106,6 +121,17 @@
       "properties": {},
       "style": {
         "type-font-size": 20
+      }
+    },
+    {
+      "id": "n8",
+      "fromId": "n4",
+      "toId": "n6",
+      "type": "fan",
+      "properties": {},
+      "style": {
+        "type-font-size": 20,
+        "type-padding": 2
       }
     }
   ]
