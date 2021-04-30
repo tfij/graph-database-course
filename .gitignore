@@ -1,3 +1,4 @@
 .gradle/
+.coursecreator/
 .idea/
 build/
