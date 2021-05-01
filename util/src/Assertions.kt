@@ -14,6 +14,11 @@ object Assertions {
         Assert.assertTrue("Expect one vertex of type `Person` with `firstName` property equal to `$firstName`.", exists)
     }
 
+    fun assertPersonVertexExists(g: GraphTraversalSource, firstName: String, lastName: String) {
+        val exists = g.V().has("Person", "firstName", firstName).has("lastName", lastName).count().next() > 0
+        Assert.assertTrue("Expect one vertex of type `Person` with `firstName` property equal to `$firstName` and `lastName` equal to `$lastName`.", exists)
+    }
+
     fun assertTotalNumberOfVertices(g: GraphTraversalSource, expectedVerticesCount: Long) {
         val verticesCount = g.V().count().next()
         Assert.assertEquals("Expect number of Vertices in graph.", expectedVerticesCount, verticesCount)
@@ -27,5 +32,15 @@ object Assertions {
             .count()
             .next()
         Assert.assertTrue("Expect one edge of type `$edgeLabel` from `$fromFirstName` to `$toFirstName` but found $edgeCount.", edgeCount == 1L)
+    }
+
+    fun assertPersonVertexEdges(g: GraphTraversalSource, fromFirstName: String, toFirstName: String, edgeLabel: String, since: Int) {
+        val edgeCount = g.V().has("Person", "firstName", fromFirstName)
+            .outE(edgeLabel).has("since", since)
+            .V()
+            .has("Person", "firstName", toFirstName)
+            .count()
+            .next()
+        Assert.assertTrue("Expect one edge of type `$edgeLabel` and since property with value `$since` from `$fromFirstName` to `$toFirstName` but found $edgeCount.", edgeCount == 1L)
     }
 }
