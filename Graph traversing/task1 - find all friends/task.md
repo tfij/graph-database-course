@@ -1,6 +1,6 @@
 # Find all friends
 
-Write a code that return's all friends names (`firstName` property) of the person with the given  first name.
+Write a code that returns all friends' names (`firstName` property) of the person with the given  first name.
 
 <div class="hint">To traverse to the next vertex you can use in, out, or both methods.</div>
 
