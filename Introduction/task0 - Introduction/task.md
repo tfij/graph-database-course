@@ -2,7 +2,7 @@
 
 Welcome to my Graph Database Course.
 
-## What you will learn
+## What will you learn
 
 In this course, you will learn
 
@@ -13,24 +13,24 @@ In this course, you will learn
 ## Before we start
 
 This course is driven by IntelliJ IDEA Edu.
-You can read more about this platform at the [jetbrains.com](https://www.jetbrains.com/help/idea/product-educational-tools.html) site.
+You can read more about this platform at the [jetbrains.com](https://www.jetbrains.com/help/idea/product-educational-tools.html).
 
-In each task, I provide links to documentation and tips so that you have a starting point when you get stuck.
+In each task, links to the documentation and tips as starting point when you get stuck will be provided.
 
 ## Technology
 
 There are two popular languages for graph databases:
 [Cypher](https://neo4j.com/developer/cypher/) and [Gremlin](https://tinkerpop.apache.org/gremlin.html).
-I decided to use Gremlin because:
+The Gremlin has been chosen because:
 
 - All popular graph databases support it
 - A query can be map one-to-one to the code (java, kotlin, typescript) so that our queries can be verified at the compilation stage
 
-In this course, I use an in-memory graph database.
-The key is to learn how to work with data graphs.
+In this course, in-memory graph database has bean used.
+The key is to learn how to work with data graphs, not how the particular graph vendor implementation works.
 
 If you decide to start a production project, you will have to choose the right vendor.
-Each vendor may differ on things such as support transactions, support distributed servers, indexing, etc.
+Each vendor may vary in support transactions, support distributed servers, indexing, etc.
 
 ## Graph and Gremlin basics
 
