@@ -5,3 +5,8 @@ Some of them may be short and others very long.
 When writing a graph search, it is worth adding a constraint, e.g. do not search for paths longer than `n`.
 
 Add a condition that will allow limiting the length of returned paths based on the function argument.
+
+Try to use `org.apache.tinkerpop.gremlin.process.traversal.P` in condition.
+
+## The graph diagram for this task
+![Data graph](../resources/dataGraph.png)
