@@ -45,13 +45,13 @@
       "id": "n0",
       "position": {
         "x": 75,
-        "y": 365.20797654985324
+        "y": 365.20797654985324,
+        "voronoiId": 2
       },
       "caption": "Person",
       "labels": [],
       "properties": {
-        "firstName": "Dave",
-        "lastName": "Dacota"
+        "firstName": "Dave"
       },
       "style": {
         "property-font-size": 20
@@ -61,7 +61,8 @@
       "id": "n1",
       "position": {
         "x": 123.95231094338715,
-        "y": 616.5693257481544
+        "y": 616.5693257481544,
+        "voronoiId": 3
       },
       "caption": "Person",
       "labels": [],
@@ -76,7 +77,8 @@
       "id": "n2",
       "position": {
         "x": 336.96159421103465,
-        "y": 300.30340621912626
+        "y": 300.30340621912626,
+        "voronoiId": 1
       },
       "caption": "Person",
       "labels": [],
@@ -91,7 +93,8 @@
       "id": "n3",
       "position": {
         "x": 282.85927029984356,
-        "y": 50
+        "y": 50,
+        "voronoiId": 0
       },
       "caption": "Person",
       "labels": [],
@@ -121,7 +124,8 @@
       "type": "fan",
       "properties": {},
       "style": {
-        "type-font-size": 20
+        "type-font-size": 20,
+        "arrow-color": "#d33115"
       }
     },
     {
@@ -139,14 +143,10 @@
       "fromId": "n1",
       "toId": "n2",
       "type": "fan",
-      "properties": {
-        "since": "2017"
-      },
+      "properties": {},
       "style": {
         "type-font-size": 20,
-        "type-padding": 2,
-        "property-font-size": 20,
-        "property-color": "#68bc00"
+        "type-padding": 2
       }
     }
   ]

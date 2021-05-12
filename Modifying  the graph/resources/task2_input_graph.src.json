@@ -50,8 +50,7 @@
       "caption": "Person",
       "labels": [],
       "properties": {
-        "firstName": "Dave",
-        "lastName": "Dacota"
+        "firstName": "Dave"
       },
       "style": {
         "property-font-size": 20
@@ -69,7 +68,8 @@
         "firstName": "Margareth"
       },
       "style": {
-        "property-font-size": 20
+        "property-font-size": 20,
+        "border-color": "#d33115"
       }
     },
     {
@@ -111,7 +111,8 @@
       "type": "friendOf",
       "properties": {},
       "style": {
-        "type-font-size": 20
+        "type-font-size": 20,
+        "arrow-color": "#d33115"
       }
     },
     {
@@ -139,14 +140,11 @@
       "fromId": "n1",
       "toId": "n2",
       "type": "fan",
-      "properties": {
-        "since": "2017"
-      },
+      "properties": {},
       "style": {
         "type-font-size": 20,
         "type-padding": 2,
-        "property-font-size": 20,
-        "property-color": "#68bc00"
+        "arrow-color": "#d33115"
       }
     }
   ]

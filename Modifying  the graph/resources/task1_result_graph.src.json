@@ -42,10 +42,10 @@
   },
   "nodes": [
     {
-      "id": "n0",
+      "id": "n4",
       "position": {
-        "x": -177.8168577131309,
-        "y": -413.57587476766923
+        "x": 111.74492703574168,
+        "y": 387.56932574815437
       },
       "caption": "Person",
       "labels": [],
@@ -53,14 +53,15 @@
         "firstName": "John"
       },
       "style": {
-        "property-font-size": 20
+        "property-font-size": 20,
+        "border-color": "#68bc00"
       }
     },
     {
-      "id": "n1",
+      "id": "n5",
       "position": {
-        "x": 190.32001492777619,
-        "y": -664.9372239659704
+        "x": 479.88179967664877,
+        "y": 136.20797654985324
       },
       "caption": "Person",
       "labels": [],
@@ -72,10 +73,10 @@
       }
     },
     {
-      "id": "n4",
+      "id": "n6",
       "position": {
-        "x": 239.27232587116333,
-        "y": -413.57587476766923
+        "x": 528.834110620036,
+        "y": 387.56932574815437
       },
       "caption": "Person",
       "labels": [],
@@ -87,10 +88,10 @@
       }
     },
     {
-      "id": "n5",
+      "id": "n7",
       "position": {
-        "x": -79.5623299771899,
-        "y": -664.9372239659704
+        "x": 209.99945477168268,
+        "y": 136.20797654985324
       },
       "caption": "Person",
       "labels": [],
@@ -98,14 +99,15 @@
         "firstName": "Jenefer"
       },
       "style": {
-        "property-font-size": 20
+        "property-font-size": 20,
+        "border-color": "#68bc00"
       }
     },
     {
-      "id": "n6",
+      "id": "n8",
       "position": {
-        "x": 452.28160913881084,
-        "y": -729.8417942966973
+        "x": 741.8433938876835,
+        "y": 71.30340621912626
       },
       "caption": "Person",
       "labels": [],
@@ -117,10 +119,10 @@
       }
     },
     {
-      "id": "n7",
+      "id": "n9",
       "position": {
-        "x": 398.17928522761974,
-        "y": -980.1452005158236
+        "x": 687.7410699764923,
+        "y": -179
       },
       "caption": "Person",
       "labels": [],
@@ -134,30 +136,10 @@
   ],
   "relationships": [
     {
-      "id": "n1",
-      "fromId": "n1",
-      "toId": "n4",
-      "type": "friendOf",
-      "properties": {},
-      "style": {
-        "type-font-size": 20
-      }
-    },
-    {
-      "id": "n2",
-      "fromId": "n0",
-      "toId": "n5",
-      "type": "friendOf",
-      "properties": {},
-      "style": {
-        "type-font-size": 20
-      }
-    },
-    {
-      "id": "n3",
-      "fromId": "n1",
+      "id": "n4",
+      "fromId": "n5",
       "toId": "n6",
-      "type": "fan",
+      "type": "friendOf",
       "properties": {},
       "style": {
         "type-font-size": 20
@@ -165,9 +147,20 @@
     },
     {
       "id": "n5",
-      "fromId": "n5",
-      "toId": "n1",
+      "fromId": "n4",
+      "toId": "n7",
       "type": "friendOf",
+      "properties": {},
+      "style": {
+        "type-font-size": 20,
+        "arrow-color": "#68bc00"
+      }
+    },
+    {
+      "id": "n6",
+      "fromId": "n5",
+      "toId": "n8",
+      "type": "fan",
       "properties": {},
       "style": {
         "type-font-size": 20
@@ -176,7 +169,18 @@
     {
       "id": "n7",
       "fromId": "n7",
-      "toId": "n6",
+      "toId": "n5",
+      "type": "friendOf",
+      "properties": {},
+      "style": {
+        "type-font-size": 20,
+        "arrow-color": "#68bc00"
+      }
+    },
+    {
+      "id": "n8",
+      "fromId": "n9",
+      "toId": "n8",
       "type": "fan",
       "properties": {},
       "style": {
@@ -184,9 +188,9 @@
       }
     },
     {
-      "id": "n8",
-      "fromId": "n4",
-      "toId": "n6",
+      "id": "n9",
+      "fromId": "n6",
+      "toId": "n8",
       "type": "fan",
       "properties": {},
       "style": {
@@ -195,14 +199,15 @@
       }
     },
     {
-      "id": "n9",
-      "fromId": "n6",
-      "toId": "n4",
+      "id": "n10",
+      "fromId": "n8",
+      "toId": "n6",
       "type": "friendOf",
       "properties": {},
       "style": {
         "type-font-size": 20,
-        "type-padding": 1
+        "type-padding": 1,
+        "arrow-color": "#68bc00"
       }
     }
   ]
