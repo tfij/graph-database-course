@@ -1,8 +1,8 @@
-# Delete vertices
+# Delete edge
 
 Write code to delete edge between Dave as Adel.
 
-Try to use `where` method.
+Try to use `where` method. In `where` use `otherV` method.
 
 <div class="hint">To delete the edge you have to find the vertex and specify which node you want to delete.</div>
 

@@ -13,10 +13,10 @@ class Test {
         deleteMargarethVertex(g)
 
         // then function returns valid data set
+        Assertions.assertTotalNumberOfVertices(g, 3)
         Assertions.assertPersonVertexExists(g, "Bil")
         Assertions.assertPersonVertexExists(g, "Adel")
         Assertions.assertPersonVertexExists(g, "Dave")
-        Assertions.assertTotalNumberOfVertices(g, 3)
         Assertions.assertPersonVertexEdges(g, "Bil", "Adel", "fan")
         Assertions.assertPersonVertexEdges(g, "Dave", "Adel", "fan")
         Assertions.assertPersonVertexEdgeCount(g, "Bil", 1)

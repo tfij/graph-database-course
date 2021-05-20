@@ -24,5 +24,7 @@ Deep of friends searching is configured by the function `n` parameter.
 In the `repeat` function, you have to import `org.apache.tinkerpop.gremlin.process.traversal.dsl.graph.__` and use it an anonymous GraphTraversal.
 Underscore is a special character in kotlin and you have to alias it.
 
+<div class="hint">To alias __ use the as keyword and wrap underscores with ` char, eg `__` as underscore</div>
+
 ## The graph diagram for this task
 ![Data graph](../resources/dataGraph.png)
