@@ -20,7 +20,7 @@ The above gremlin query will search the graph recursively, however, it needs imp
 
 Add execution steps so that the result includes the path from the first vertex to the last.
 
-Use `path` and `simplePath` method. 
+Use `path` and `simplePath` methods.
 Use the `by` method in combination with the `path` method just like sorting the results.
 
 ## The graph diagram for this task

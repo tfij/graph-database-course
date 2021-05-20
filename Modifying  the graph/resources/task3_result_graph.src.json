@@ -42,10 +42,10 @@
   },
   "nodes": [
     {
-      "id": "n1",
+      "id": "n0",
       "position": {
-        "x": 190.32001492777619,
-        "y": -664.9372239659704
+        "x": 75,
+        "y": 365.20797654985324
       },
       "caption": "Person",
       "labels": [],
@@ -57,10 +57,10 @@
       }
     },
     {
-      "id": "n4",
+      "id": "n1",
       "position": {
-        "x": 239.27232587116333,
-        "y": -413.57587476766923
+        "x": 123.95231094338715,
+        "y": 616.5693257481544
       },
       "caption": "Person",
       "labels": [],
@@ -72,10 +72,10 @@
       }
     },
     {
-      "id": "n6",
+      "id": "n2",
       "position": {
-        "x": 452.28160913881084,
-        "y": -729.8417942966973
+        "x": 336.96159421103465,
+        "y": 300.30340621912626
       },
       "caption": "Person",
       "labels": [],
@@ -87,10 +87,10 @@
       }
     },
     {
-      "id": "n7",
+      "id": "n3",
       "position": {
-        "x": 398.17928522761974,
-        "y": -980.1452005158236
+        "x": 282.85927029984356,
+        "y": 50
       },
       "caption": "Person",
       "labels": [],
@@ -104,9 +104,9 @@
   ],
   "relationships": [
     {
-      "id": "n1",
-      "fromId": "n1",
-      "toId": "n4",
+      "id": "n0",
+      "fromId": "n0",
+      "toId": "n1",
       "type": "friendOf",
       "properties": {},
       "style": {
@@ -114,9 +114,9 @@
       }
     },
     {
-      "id": "n7",
-      "fromId": "n7",
-      "toId": "n6",
+      "id": "n1",
+      "fromId": "n3",
+      "toId": "n2",
       "type": "fan",
       "properties": {},
       "style": {
@@ -124,15 +124,25 @@
       }
     },
     {
-      "id": "n8",
-      "fromId": "n4",
-      "toId": "n6",
+      "id": "n2",
+      "fromId": "n1",
+      "toId": "n2",
       "type": "fan",
       "properties": {},
       "style": {
         "type-font-size": 20,
         "type-padding": 2
       }
+    },
+    {
+      "id": "n3",
+      "type": "fan",
+      "style": {
+        "type-font-size": 20
+      },
+      "properties": {},
+      "fromId": "n0",
+      "toId": "n3"
     }
   ]
 }

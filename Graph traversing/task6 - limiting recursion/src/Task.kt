@@ -1,16 +1,16 @@
 import org.apache.tinkerpop.gremlin.process.traversal.P
 import org.apache.tinkerpop.gremlin.process.traversal.dsl.graph.GraphTraversalSource
-import org.apache.tinkerpop.gremlin.process.traversal.dsl.graph.`__` as inner
+import org.apache.tinkerpop.gremlin.process.traversal.dsl.graph.`__` as underscore
 
 fun findPath(g: GraphTraversalSource, fromFirstName: String, toFirstName: String, maxPathLength: Int): List<List<String>> {
     return g.V()
         .has("firstName", fromFirstName)
         .repeat(
-            inner.both("friendOf").simplePath()
+            underscore.both("friendOf").simplePath()
         )
-        .until(inner.and<Any>(
-            inner.has<String>("firstName", toFirstName),
-            inner.loops<Any>().`is`(P.lte(maxPathLength-1))
+        .until(underscore.and<Any>(
+            underscore.has<String>("firstName", toFirstName),
+            underscore.loops<Int>().`is`(P.lt(maxPathLength))
         ))
         .path().by("firstName")
         .toList()

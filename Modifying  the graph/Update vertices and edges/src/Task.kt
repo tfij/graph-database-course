@@ -1,5 +1,5 @@
 import org.apache.tinkerpop.gremlin.process.traversal.dsl.graph.GraphTraversalSource
-import org.apache.tinkerpop.gremlin.process.traversal.dsl.graph.`__` as inner
+import org.apache.tinkerpop.gremlin.process.traversal.dsl.graph.`__` as underscore
 
 fun updateGraph(g: GraphTraversalSource) {
     g.V().has("Person", "firstName", "Dave")
@@ -8,7 +8,7 @@ fun updateGraph(g: GraphTraversalSource) {
 
     g.V().has("Person", "firstName", "Margareth")
         .outE("fan")
-        .where(inner.otherV().has("Person", "firstName", "Adel"))
+        .where(underscore.otherV().has("Person", "firstName", "Adel"))
         .property("since", 2017)
         .iterate()
 }
